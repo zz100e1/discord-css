@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+.theme-dark {
+    --text-normal: #F996B2;
+    --text-muted: #B57BD3;
+
+    --header-primary: #B57BD3;
+    --header-secondary: #F996B2;
+
+    --background-primary: #1E1B1D;
+    --background-secondary: #282527;
+    --background-secondary-alt: #1E1B1D;
+    --background-tertiary: #1E1B1D;
+    --background-accent: #B57BD3;
+    --background-floating: #282527;
+    --deprecated-store-bg: #282527;
+    --activity-card-background: #1E1B1D;
+    --deprecated-panel-background: #1E1B1D;
+    --background-modifier-selected: #1E1B1D;
+    --background-message-hover: #1E1B1D;
+
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --background-modifier-hover: rgba(79, 84, 92, 0.16);
+    --background-modifier-active: rgba(79, 84, 92, 0.24);
+    --background-modifier-accent: rgba(0, 0, 0, 0);
+
+    --interactive-normal: #B57BD3;
+    --interactive-hover: #F0C290;
+    --interactive-active: #F996B2;
+    --interactive-muted: #666666;
+
+    --channels-default: #B57BD3;
+    --channeltextarea-background: #282527;
+
+    --scrollbar-thin-thumb: #B57BD3;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #B57BD3;
+}
+
+[class*=timestampInline] {
+    font-size: 10px;
+}
+
+* {
+    font-family: "JetBrains Mono" !important;
+}
+
+[class*="sidebar"] [class*="containerDefault"] [class*="mainContent"] {
+    height: 28px !important;
+}
+
+[class*="sidebar"] [class*="containerDefault"] [class*="mainContent"] > * {
+    font-size: 14px !important;
+}
+
+[class*="messageContent"] {
+    font-size: 12px !important;
+    margin-top: 0px;
+}
+
+[class*="emoji"] {
+    font-size: 105%;
+}
+
+[class*="name"] {
+    font-size: 14px;
+}
+
+[class*="comment"] {
+    color: #666666;
+}
+
+[class*="lookBlank"] {
+  color: #F0C290;
+}
+
+[class*="themeEditor"] [class*="editorAnimate"] {
+	display: 'none';
+}
+
+[class*="userPopout"] [class*="body"],
+[class*="userPopout"] [class*="footer"] {
+  background-color: #282527;
+}
+
+[class*="userPopout"] [class*="headerNormal"] {
+  background-color: #282527;
+}
+
+[class*="headerTop"] {
+    background-color: #282527;
+}
+
+[class*="autocomplete"] {
+    background-color: #282527;
+}
+
+[class*="autocompleteRowContent"] {
+    background-color: #282527;
+}
+
+[class*="base"][class*="selected"][class*="selectable"] {
+    background-color: #B57BD3 !important;
+}
+
+[class*="base"][class*="selected"][class*="selectable"] * {
+    background-color: #B57BD3 !important;
+    color: #1E1B1D;
+}
+
+[class*="headerPlaying"] * {
+    background-color: #282527 !important;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-handle,
+::-webkit-scrollbar-track-piece {
+    border-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+[class*="folder"][class*="hover"] {
+    background-color: #F996B2;
+}
+
+[class*="peopleColumn"] {
+    background-color: #1E1B1D;
+}
+
+[class*="item-3HknzM"] {
+    background-color: #282527 !important;
+    color: #B57BD3 !important;
+}
+
+[class*="item-3HknzM"] [class*="ring"] {
+    background-color: #282527 !important;
+    color: #B57BD3 !important;
+}
+
+[class*="emojiButton-3uL3Aw"] {
+    background-color: #282527 !important;
+    color: #B57BD3 !important;
+}
+
+[id*="popout"] [class*="container"] {
+    background-color: #282527;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+    color: #282527 !important;
+    font-size: 10px !important;
+}
+
+[class*="popout-APcvZm"] {
+    background-color: #282527;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+[id*="popout"] [class*="container"] ::after {
+    background-image: none !important;
+    font-size: 10px !important;
+}
+
+[class*="profileBadges"] {
+    box-shadow: 0 0 0px !important;
+}
+
+[class*="topic__"] {
+    max-width: 700px;
+}
